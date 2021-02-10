@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="cssFiles/encoder-decoder.css">
+</head>
+<body>
+    <header class="header-bar">
+        <nav class="links-section">
+        </nav>
+    </header>
+    <section id="utility-app">
+        <div class="classifieds-ads">
+            <div class="other-options">
+                <div class="converter-other">
+                    <button id="url-encode">URL Encoder</button>
+                </div>
+                <div class="converter-other">
+                    <button id="url-decode">URL Decoder</button>
+                </div>
+                <div class="converter-other">
+                    <button id="base64-encode">Base64 Encoder</button>
+                </div>
+                <div class="converter-other">
+                    <button id="base64-decode">Base64 Decoder</button>
+                </div>
+                <div class="converter-other">
+                    <button id="md5-hash">MD-5 Hash Generator</button>
+                </div>
+                <div class="converter-other">
+                    <button id="sha1-hash">SHA-1 Hash Generator</button>
+                </div>
+                <div class="converter-other">
+                    <button id="sha256-hash">SHA-256 Hash Generator</button>
+                </div>
+                <div class="converter-other">
+                    <button id="sha512-hash">SHA-512 Hash Generator</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="source">
+            <div><label> <h2 id="app-heading">URL Encoder/Decoder</h2></label></div>
+            <div class="utility">
+                <div class="input">
+                    <textarea id="input-text-1" value="" placeholder="eg: https://www.google.com/"></textarea>
+                </div>
+                <div class="options">
+                    <div class="converter">
+                        <input type="button" id="encode" value="Encode">
+                    </div>
+                    <div class="converter">
+                        <input type="button" id="decode" value="Decode">
+                    </div>
+                </div>
+                <div class="input">
+                    <textarea id="input-text-2" value=""></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./jsFiles/main.js"></script>
+</html>
